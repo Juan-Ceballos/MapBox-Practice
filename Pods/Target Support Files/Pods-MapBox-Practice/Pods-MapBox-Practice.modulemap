@@ -1,0 +1,6 @@
+framework module Pods_MapBox_Practice {
+  umbrella header "Pods-MapBox-Practice-umbrella.h"
+
+  export *
+  module * { export * }
+}

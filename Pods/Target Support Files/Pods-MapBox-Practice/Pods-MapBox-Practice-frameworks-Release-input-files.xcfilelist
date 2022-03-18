@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-frameworks.sh
+${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt
+${BUILT_PRODUCTS_DIR}/MapboxMaps/MapboxMaps.framework
+${BUILT_PRODUCTS_DIR}/Turf/Turf.framework
