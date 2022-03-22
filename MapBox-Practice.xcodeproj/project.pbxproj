@@ -3,21 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EDBDEF827E9536C00A11D15 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDBDEF727E9536C00A11D15 /* MapboxMaps */; };
 		3E7402E027CDF41C00373FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7402DF27CDF41C00373FC5 /* AppDelegate.swift */; };
 		3E7402E227CDF41C00373FC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7402E127CDF41C00373FC5 /* SceneDelegate.swift */; };
 		3E7402E427CDF41C00373FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7402E327CDF41C00373FC5 /* ViewController.swift */; };
 		3E7402E927CDF41E00373FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7402E827CDF41E00373FC5 /* Assets.xcassets */; };
 		3E7402EC27CDF41E00373FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7402EA27CDF41E00373FC5 /* LaunchScreen.storyboard */; };
-		3EC2A35D27E40227002E745D /* mapbox in Resources */ = {isa = PBXBuildFile; fileRef = 3EC2A35C27E40227002E745D /* mapbox */; };
-		DD1D647F1C5B1A576E2E1F78 /* Pods_MapBox_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1333719F040B68AA039E18E1 /* Pods_MapBox_Practice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1333719F040B68AA039E18E1 /* Pods_MapBox_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapBox_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7402DC27CDF41C00373FC5 /* MapBox-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapBox-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7402DF27CDF41C00373FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7402E127CDF41C00373FC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +23,6 @@
 		3E7402E827CDF41E00373FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7402EB27CDF41E00373FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7402ED27CDF41E00373FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EC2A35C27E40227002E745D /* mapbox */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapbox; sourceTree = "<group>"; };
-		5CFF54DDA30060C2F4E680AA /* Pods-MapBox-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBox-Practice.debug.xcconfig"; path = "Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice.debug.xcconfig"; sourceTree = "<group>"; };
-		EC6149D152FE408C98BFA617 /* Pods-MapBox-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBox-Practice.release.xcconfig"; path = "Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1D647F1C5B1A576E2E1F78 /* Pods_MapBox_Practice.framework in Frameworks */,
+				2EDBDEF827E9536C00A11D15 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +42,6 @@
 			children = (
 				3E7402DE27CDF41C00373FC5 /* MapBox-Practice */,
 				3E7402DD27CDF41C00373FC5 /* Products */,
-				8946C0FAD1B333E36335C1D2 /* Pods */,
-				5BC7749EBE7B75FB4A3C8D3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +56,6 @@
 		3E7402DE27CDF41C00373FC5 /* MapBox-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				3EC2A35B27E3FF8A002E745D /* Secrets */,
 				3E7402DF27CDF41C00373FC5 /* AppDelegate.swift */,
 				3E7402E127CDF41C00373FC5 /* SceneDelegate.swift */,
 				3E7402E327CDF41C00373FC5 /* ViewController.swift */,
@@ -74,32 +66,6 @@
 			path = "MapBox-Practice";
 			sourceTree = "<group>";
 		};
-		3EC2A35B27E3FF8A002E745D /* Secrets */ = {
-			isa = PBXGroup;
-			children = (
-				3EC2A35C27E40227002E745D /* mapbox */,
-			);
-			path = Secrets;
-			sourceTree = "<group>";
-		};
-		5BC7749EBE7B75FB4A3C8D3E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1333719F040B68AA039E18E1 /* Pods_MapBox_Practice.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8946C0FAD1B333E36335C1D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CFF54DDA30060C2F4E680AA /* Pods-MapBox-Practice.debug.xcconfig */,
-				EC6149D152FE408C98BFA617 /* Pods-MapBox-Practice.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,19 +73,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7402F027CDF41E00373FC5 /* Build configuration list for PBXNativeTarget "MapBox-Practice" */;
 			buildPhases = (
-				BA9F3B9DC9A0B0A6ED76E391 /* [CP] Check Pods Manifest.lock */,
-				301190BDC4284B3675A9D359 /* [CP] Prepare Artifacts */,
 				3E7402D827CDF41C00373FC5 /* Sources */,
 				3E7402D927CDF41C00373FC5 /* Frameworks */,
 				3E7402DA27CDF41C00373FC5 /* Resources */,
 				3EC2A36027E4025C002E745D /* ShellScript */,
-				119C34925EE4D5213C71FB3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "MapBox-Practice";
+			packageProductDependencies = (
+				2EDBDEF727E9536C00A11D15 /* MapboxMaps */,
+			);
 			productName = "MapBox-Practice";
 			productReference = 3E7402DC27CDF41C00373FC5 /* MapBox-Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +113,9 @@
 				Base,
 			);
 			mainGroup = 3E7402D327CDF41C00373FC5;
+			packageReferences = (
+				2EDBDEF627E9536C00A11D15 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = 3E7402DD27CDF41C00373FC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,47 +132,12 @@
 			files = (
 				3E7402EC27CDF41E00373FC5 /* LaunchScreen.storyboard in Resources */,
 				3E7402E927CDF41E00373FC5 /* Assets.xcassets in Resources */,
-				3EC2A35D27E40227002E745D /* mapbox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		119C34925EE4D5213C71FB3A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		301190BDC4284B3675A9D359 /* [CP] Prepare Artifacts */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-artifacts-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Prepare Artifacts";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-artifacts-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapBox-Practice/Pods-MapBox-Practice-artifacts.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3EC2A36027E4025C002E745D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,28 +156,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Look for a global file named 'mapbox' or '.mapbox' within the home directory\ntoken_file=~/.mapbox\ntoken_file2=/Users/juanceballos/Desktop/Practice-Projects/MapBox-Practice/MapBox-Practice/Secrets/mapbox\ntoken=\"$(cat $token_file 2>/dev/null || cat $token_file2 2>/dev/null)\"\nif [ \"$token\" ]; then\n  plutil -replace MBXAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\n  echo 'warning: Missing Mapbox access token'\n  open 'https://account.mapbox.com/access-tokens/'\n  echo \"warning: Get an access token from <https://account.mapbox.com/access-tokens/>, then create a new file at $token_file or $token_file2 that contains the access token.\"\nfi\n";
-		};
-		BA9F3B9DC9A0B0A6ED76E391 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MapBox-Practice-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -390,7 +302,6 @@
 		};
 		3E7402F127CDF41E00373FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CFF54DDA30060C2F4E680AA /* Pods-MapBox-Practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,7 +321,6 @@
 		};
 		3E7402F227CDF41E00373FC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6149D152FE408C98BFA617 /* Pods-MapBox-Practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EDBDEF627E9536C00A11D15 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EDBDEF727E9536C00A11D15 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDBDEF627E9536C00A11D15 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E7402D427CDF41C00373FC5 /* Project object */;
 }
