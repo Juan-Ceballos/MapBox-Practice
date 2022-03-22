@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MBXAccessToken</key>
-	<string>pk.eyJ1IjoiYXNobGlyYW5raW4xOCIsImEiOiJjbDExZW00M2wwM2FlM2Jtd3I5MThkZG16In0.LtnleOYyW94XV1fxqlpfXA</string>
+	<string>ADD YOU PUBLIC TOKEN HERE FROM MAPBOX</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
